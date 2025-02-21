@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="card">
+        <form action="">
+            <h2>Provide Us Your Feedback</h2>
+            
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="input-group">
+                <label for="phno">Mobile Number</label>
+                <input type="text" name="phno" id="phno" placeholder="Enter your mobile number">
+            </div>
+
+            <div class="rating">
+                <label>Give Rating</label>
+                <div class="stars">
+                    <input type="radio" name="rating" id="star5" value="5"><label for="star5">★</label>
+                    <input type="radio" name="rating" id="star4" value="4"><label for="star4">★</label>
+                    <input type="radio" name="rating" id="star3" value="3"><label for="star3">★</label>
+                    <input type="radio" name="rating" id="star2" value="2"><label for="star2">★</label>
+                    <input type="radio" name="rating" id="star1" value="1"><label for="star1">★</label>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments" placeholder="Write your feedback..."></textarea>
+            </div>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+</body>
+</html>
